@@ -31,7 +31,7 @@ describe("konami_code.js", () => {
       for (let i = 0, l = codes.length; i < l; i++) {
         triggerKeyDown(codes[i]);
       }
-      expect(spy.called).to.equal(true);
+      expect(spy.called).to.equal(false);
       expect(spy.callCount).to.equal(0);
     });
 
