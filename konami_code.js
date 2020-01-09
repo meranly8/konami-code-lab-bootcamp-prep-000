@@ -12,5 +12,10 @@ const codes = [
 ];
 
 function init() {
-
+  let index = 0;
+  
+  document.body.addEventListener("Keydown", function(e) => {
+    const key = e.Keydown
+    
+  });
 }
